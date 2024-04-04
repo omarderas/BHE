@@ -5,14 +5,21 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "gatsby": "^5.13.3",
     "gatsby-plugin-image": "^3.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
+    "gatsby-plugin-sass": "^6.13.1",
     "gatsby-plugin-sharp": "^5.13.1",
     "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-source-graphcms": "^2.8.0",
     "gatsby-transformer-sharp": "^5.13.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18.2.0",
+    "react-sticky-el": "^2.1.0",
+    "react-sticky-header": "^0.2.0",
+    "sass": "^1.72.0"
   },
   "devDependencies": {
     "prettier": "^2.8.8"

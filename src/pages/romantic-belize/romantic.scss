@@ -1,0 +1,47 @@
+.romantic{
+    .romantic-main{
+        padding-top: 80px;
+        max-width: 1500px;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 80px;
+        .romantic-cont{
+                h1{
+                    position: relative;
+                    z-index: 99;
+                    color: rgb(99, 171, 69);
+                    font-size: 50px;
+                    font-family: "Timmana", sans-serif;
+                    font-weight: bold;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                }
+                p{
+                    margin-bottom: 0;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 16px;
+                    color: #000;
+                    padding-bottom: 20px;
+                }
+        }
+        .romantic-grid{
+            a{
+                font-size: 16px;
+                background: #63ab45;
+                color: #fff;
+                font-weight: 700;
+                padding: 18px 32px;
+                line-height: 22px;
+                position: relative;
+                z-index: 9;
+                display: inline-block;
+                transition: all 0.35s ease 0s;
+                border: none;
+                text-transform: none;
+                border-radius: 8px;
+                text-decoration: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,233 @@
+
+@import "./../../src/less/variables.scss";
+
+
+
+.tours-deferred {
+    background-color: $cello;
+    color: white;
+    background-image: url(https://img.freepik.com/free-vector/background-gradient-green-tones_23-2148360340.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1710288000&semt=ais);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+    margin-top: -37px;
+}
+.tours-deferred .image-gallery { 
+    position: sticky;
+    top: 0;
+}
+.tours-deferred .carousel,
+.tours-deferred .carousel-item,
+.tours-deferred .carousel-inner,
+.tours-deferred .gatsby-image-wrapper img {
+    @media(min-width: 787px){
+        height: 100vh !important;  
+    }
+
+    object-fit: cover;
+    @include image-typical;
+}
+.tours-deferred #right .carousel-item {
+    @include image-typical;
+    height: 100%;
+    background-size: cover;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.tours-deferred .back-button {
+    display: none;
+}
+
+.tours-deferred #left {
+    padding: 30px 25px;
+}
+
+.tours-deferred #left h4 {
+    border: 1px solid $paper;
+    padding: 5px 10px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    border-radius: 3px;
+    display: table-cell;
+}
+.tours-deferred #left .text-field p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tours-deferred #left a {
+    color: $paper !important;
+    text-decoration: underline !important;
+}
+.tours-deferred .carousel-indicators {
+    width: unset;
+    height: unset !important;
+}
+
+
+@media only screen and (max-width: 786px) {
+    .tours-deferred .image-gallery {
+        position: relative;
+        top: unset;
+    }
+    .tours-deferred #left .image-gallery,
+    .tours-deferred .carousel,
+    .tours-deferred .carousel-item,
+    .tours-deferred .carousel-inner,
+    .tours-deferred #left .gatsby-image-wrapper img  {
+        //height: 300px !important;
+    }
+    .tours-deferred #left {
+        padding-left: 10px;
+        padding-right:10px;
+    }
+    .tours-deferred #left .text-field h4 {
+        text-align: center;
+    }
+    .tours-deferred #left .text-field h1 {
+        margin-left: 0;
+        margin-right: 0;
+        display: table;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .tours-deferred {
+        //margin-top: -72px;
+    }
+
+}
+@media only screen and (min-width: 1444px ) {
+    .tours-deferred #left {
+        padding: 60px 60px!important;
+    }
+}
+
+.contact-cta.tours {
+    margin-top: 40px;
+    border: 0.5px solid rgba(147, 196, 255, 0.5);
+    box-shadow: 0px 2px 4px rgba(147, 196, 255, 0.25);
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    h3{
+        //color: #306b79;
+    }
+}
+span.visually-hidden{
+    display: none;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
+}
+
+.tours-deferred{
+    .row{
+        .col-sm-5{
+            .text-field{
+                h2{
+                    color: #fff;
+                    font-size: 60px;
+                    font-family: "Timmana", sans-serif;
+                    font-weight: bold;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    
+                }
+                h4{
+                    font-family: Montserrat, sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+
+                    color: #fff;
+                    letter-spacing: 2px;
+                    line-height: 20px;
+                    text-transform: uppercase;
+                }
+                div{
+                    p{
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #fff;
+                        padding-bottom: 20px;
+                        opacity: 0.85;
+                    }
+                }
+            }
+            .contact-cta.tours{
+                h3{
+                    color: #63ab45;
+                    font-size: 30px;
+                    font-family: "Timmana", sans-serif;
+                    font-weight: 500;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    letter-spacing: 3px;
+                    margin-bottom: 3px;
+                }
+                div{
+                    p{
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #23342C;
+                        padding-bottom: 20px;
+                        opacity: 0.95;
+                    }
+                    ul{
+                        li{
+                            color: #23342C;
+                            div{
+                                font-family: "Montserrat", sans-serif;
+                                font-size: 16px;
+                                font-weight: 500;
+                                color: #23342C;
+                                //padding-bottom: 20px;
+                                opacity: 0.95;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(max-width: 767px){
+        .col-sm-7 {
+            flex: 0 0 auto;
+            width: 100%;
+        }
+        .col-sm-5 {
+            flex: 0 0 auto;
+            width: 100%;
+            padding-left: 20px!important;
+            padding-right: 20px!important;
+        }
+    }
+
+
+}
+.WidgetBackground__Container-sc-1ho7q3r-0.iczPsf{
+    padding: 0px!important;
+}

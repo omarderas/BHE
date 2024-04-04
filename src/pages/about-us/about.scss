@@ -1,0 +1,38 @@
+.aboutus{
+    .aboutus-main{
+        padding-top: 80px;
+        max-width: 1500px;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 80px;
+        .aboutus-cont{
+                h1{
+                    position: relative;
+                    z-index: 99;
+                    color: rgb(99, 171, 69);
+                    font-size: 50px;
+                    font-family: "Timmana", sans-serif;
+                    font-weight: bold;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                }
+                p{
+                    margin-bottom: 0;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 16px;
+                    color: #000;
+                    padding-bottom: 20px;
+                }
+        }
+        .staff{
+            margin: 0 auto;
+            .eapp-team-showcase-grid-component {
+                display: flex;
+                flex-wrap: wrap;
+                overflow: hidden;
+                justify-content: center;
+            }
+        }
+    }
+}

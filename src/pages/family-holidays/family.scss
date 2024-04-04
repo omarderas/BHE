@@ -1,0 +1,70 @@
+.family-main{
+    .family-main{
+        padding-top: 80px;
+        max-width: 1500px;
+        margin: 0 auto;
+        text-align: center;
+        .family-cont{
+                h1{
+                    position: relative;
+                    z-index: 99;
+                    color: rgb(99, 171, 69);
+                    font-size: 50px;
+                    font-family: "Timmana", sans-serif;
+                    font-weight: bold;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                }
+                p{
+                    margin-bottom: 0;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 16px;
+                    color: #000;
+                    padding-bottom: 20px;
+                }
+        }
+        .family-grid{
+            max-width: 1200px;
+            margin: 0 auto;
+            .row{
+                border: 1px solid rgba(0, 0, 0, 0.25);
+                margin: 20px;
+                .col-sm-4{
+                    padding-left: 0;
+                }
+                .col-sm-8{
+                    text-align: left;
+                    padding-top: 20px;
+                    .family-cont{
+                        h1{
+                            font-size: 30px;
+                        }
+
+                        a{
+                            text-decoration: none;
+                            font-size: 16px;
+                            background: #63ab45;
+                            color: #fff;
+                            font-weight: 700;
+                            padding: 10px 10px;
+                            line-height: 22px;
+                            position: relative;
+                            z-index: 9;
+                            display: block;
+                            transition: all 0.35s ease 0s;
+                            border: none;
+                            text-transform: none;
+                            border-radius: 8px;
+                            text-decoration: none;
+                            max-width: -webkit-fit-content;
+                            max-width: -moz-fit-content;
+                            max-width: fit-content;
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

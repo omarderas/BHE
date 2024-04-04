@@ -1,0 +1,160 @@
+.jungle-main{
+    .jungle-main{
+        padding-top: 80px;
+        max-width: 1500px;
+        margin: 0 auto;
+        text-align: center;
+        .jungle-cont{
+                h1{
+                    position: relative;
+                    z-index: 99;
+                    color: rgb(99, 171, 69);
+                    font-size: 50px;
+                    font-family: "Timmana", sans-serif;
+                    font-weight: bold;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                }
+                p{
+                    margin-bottom: 0;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 16px;
+                    color: #000;
+                    padding-bottom: 20px;
+                }
+        }
+        .tours-grid{
+            @media(min-width: 992px){
+                display: flex;
+                flex-wrap: wrap;
+                -webkit-box-pack: start;
+                justify-content: flex-start;
+                -webkit-box-align: stretch;
+                align-items: stretch;
+                line-height: 0;
+            }
+            @media(max-width: 991px){
+                -webkit-column-count: 2;
+                -moz-column-count: 2;
+                column-count: 2;
+                -webkit-column-gap: 0;
+                -moz-column-gap: 0;
+                column-gap: 0;
+                line-height: 0;
+                }
+            .data-wrapper{
+                margin: 5px;
+                @media(min-width: 992px){
+                    flex-basis: 32.3333333333%;
+                    flex-shrink: 0;
+                    max-width: 32.3333333333%;
+                 }
+                 a{
+                    position: relative;
+                    width: 100%;
+                    display: block;
+                    .overlay-tour{
+                        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9));
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        //top: -1px;
+                        left: 0;
+                        z-index: 99;
+                        opacity: 0.9;
+                        transition: 0.2s all ease-in-out;
+                        &:hover{
+                            opacity: 0.7;
+                        }
+                    }
+                    .item-box{
+                        position: relative;
+                        .image-field{
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        .text-box{
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            z-index: 99;
+                            text-align: left;
+                            line-height: 13px;
+                            padding: 35px;
+                            .title{
+                                h2{
+                                    color: #fff;
+                                    font-size: 45px;
+                                    font-family: "Timmana", sans-serif;
+                                    text-transform: uppercase;
+                                    margin-bottom: 0;
+                                    position: relative;
+                                    z-index: 999999;
+                                }
+                            }
+                            #price{
+                                p{
+                                    //padding-bottom: 10px;
+                                    font-family: "Montserrat", sans-serif;
+                                    text-transform: uppercase;
+                                    font-weight: bold;
+                                    font-size: 16px;
+                                    color: #63ab45;
+                                 
+                                }
+                            }
+                            .primary-info{
+                                .location{
+                                        p{
+                                            display: none;
+                                            font-family: "Montserrat", sans-serif;
+                                            font-size: 16px;
+                                            color: #fff;
+                                            margin-bottom: 0;
+                                            -webkit-line-clamp: 4;
+                                            -webkit-box-orient: vertical;
+                                            //display: -webkit-box;
+                                            overflow: hidden;
+                                            text-overflow: ellipsis;
+                                            line-height: 1.3em;
+                                            opacity: .8;
+                                            &:nth-child(1){
+                                                display: -webkit-box!important;
+                                            }
+                                        }
+                                    
+                                    a{
+                                        padding-top: 20px;
+                                        text-decoration: none;
+                                        font-size: 16px;
+                                        background: #63ab45;
+                                        color: #fff;
+                                        font-weight: 700;
+                                        padding: 5px 10px;
+                                        line-height: 22px;
+                                        position: relative;
+                                        z-index: 9;
+                                        display: block;
+                                        transition: all 0.35s ease 0s;
+                                        border: none;
+                                        text-transform: none;
+                                        border-radius: 8px;
+                                        text-decoration: none;
+                                        max-width: fit-content;
+                                        margin-top: 20px;
+                                        &:hover{
+                                            background: #fff;
+                                            color: #63ab45;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                 }
+            }
+        }
+    }
+}
