@@ -1,21 +1,21 @@
 import * as React from "react"
-import "./private.scss"
+import "./mayan.scss"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-
+import MayanRuins from "./components/mayan-ruins"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
 
-import Private from "./components/private"
 
 
 
-const PrivateServices = () => (
+
+const Jungle = () => (
   <Layout>
-    <Seo title="Private Services in Belize" />
-    <Private/>
+    <Seo title="Mayan Ruins " />
+    <MayanRuins/>
   </Layout>
 )
 
-export default PrivateServices;
+export default Jungle;

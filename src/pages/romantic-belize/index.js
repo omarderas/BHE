@@ -13,7 +13,7 @@ import Romantic from "./components/romantic"
 
 const RomanticBelize = () => (
   <Layout>
-    <Seo title="Belize Hummingbird Expeditions | Romantic Belize " />
+    <Seo title="Romantic Belize " />
     <Romantic/>
   </Layout>
 )

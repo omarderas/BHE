@@ -8,6 +8,9 @@
     padding-top: 60px;
     height: 800px;
     //margin-top: -90px;
+    @media(max-width: 575px){
+        height: auto;
+    }
    
   
     .footer-wrapper{
@@ -19,7 +22,7 @@
             .col-sm-6{
                 a.footer-brand{
                     .gatsby-image-wrapper img{
-                        width: 250px;
+                        //width: 250px;
                     }
                 }
                 ul.footer-nav{
@@ -42,6 +45,11 @@
                             text-decoration: none;
                         }
                     }
+                }
+            }
+            @media(max-width: 991px){
+                .col-sm-6.sec{
+                    display: none;
                 }
             }
         }

@@ -13,7 +13,7 @@ import BucketList from "./components/bucket-list-experiences"
 
 const BucketListExperiences = () => (
   <Layout>
-    <Seo title="Belize Hummingbird Expeditions | Bucket List Experiences " />
+    <Seo title="Bucket List Experiences " />
     <BucketList/>
   </Layout>
 )

@@ -13,7 +13,7 @@ import JungleAdventures from "./components/jungle-adventures"
 
 const Jungle = () => (
   <Layout>
-    <Seo title="Belize Hummingbird Expeditions | Jungle Adventures " />
+    <Seo title="Jungle Adventures " />
     <JungleAdventures/>
   </Layout>
 )

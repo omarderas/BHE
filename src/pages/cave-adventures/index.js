@@ -1,5 +1,5 @@
 import * as React from "react"
-import "./private.scss"
+import "./cave.scss"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -7,15 +7,15 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
 
-import Private from "./components/private"
+import CaveAdventures from "./components/cave-adventures"
 
 
 
-const PrivateServices = () => (
+const Cave = () => (
   <Layout>
-    <Seo title="Private Services in Belize" />
-    <Private/>
+    <Seo title="Cave Adventures " />
+    <CaveAdventures/>
   </Layout>
 )
 
-export default PrivateServices;
+export default Cave;

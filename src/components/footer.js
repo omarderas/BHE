@@ -7,12 +7,13 @@ import "./../less/footer.scss";
 import  FaFacebookF  from "../images/faFacebookF";
 import  FaInstagram  from "../images/FaInstagram";
 
-const MainLogo = "../images/bhe-Logo.png";
+const MainLogo = "../images/bhe-main-new.png";
      
 
 function Footer() {
 	return (
     <div className="footer">
+        
         <div className="footer-wrapper">
             <div className="row blurb">
                 
@@ -21,7 +22,7 @@ function Footer() {
                 <div className="col-sm-6">
                 <a class="footer-brand" href="#">  <StaticImage src={MainLogo} quality={60} formats={["auto", "webp", "avif"]} /></a>
                 </div>
-                <div className="col-sm-6">
+                <div className="col-sm-6 sec">
                     <ul className="footer-nav">
                         <li>
                             <a href="">About</a>

@@ -8,22 +8,22 @@ const Tours = () => {
 
         </div>
         <div className='content'>
-            <p>There is no limit to what Belize offers</p>
-            <h1>Belize is here for you and we are here to guide!</h1>
+            <p>Experience the thrill of Belize with Belize's top requested tour.</p>
+            <h1>7 Mile Kave Kayaking the Caves Branch River</h1>
         </div>
         <div className='button-main'>
-            <a href="/all-tours/">Explore Tours</a>
+            <a href="/all-tours/">Book Now</a>
         </div>
        </div>
        <div className='tour-grid'>
         <div className='headerCont'>
            
-            <p>From holidays next to the Caribbean Sea, snorkelling and world-class diving, staying on a romantic island, an immersion into a spiritual jungle journey, a river expedition or a world-class caving adventure for avid cavers – it can all happen here.</p>
+            <p>Over the years, we’ve developed friendships with past guests that have returned time after time, this has given us an in-depth perspective that lets us create not just a great expedition, but a life-changing experience you’ll never forget. And if your ideal tour is more adventurous than what you can find online, let us know, we know the secret spots more than anyone and we’ll always go the extra mile to help you experience the real Belize.</p>
             <h1>Our Experiences</h1>
         </div>
           <div className='row'>
              <div className='col-sm-4 first'>
-                <a href="/bucket-list-experiences/">
+                <a href="/all-tours/">
                                       
                
                 <div className='inner-text'>
@@ -54,6 +54,42 @@ const Tours = () => {
                 </div>
                 </a>
              </div>
+    
+             <div className='col-sm-4 fourth'>
+                <a href="/cave-adventures/">
+                                      
+                
+                <div className='inner-text'>
+                    <h1>Cave Adventures</h1>
+                </div>
+                <div className='sub-inner'>
+                    <p>
+                    Belize's extensive river systems have carved <br/>
+                    intricate networks of caves
+                    </p>
+                    <i class="fa fa-angle-right"></i>
+                    
+                </div>
+                </a>
+             </div>
+         
+       
+             <div className='col-sm-4 fifth'>
+                <a href="/mayan-ruins/">
+                                      
+               
+                <div className='inner-text'>
+                    <h1>Mayan Ruins</h1>
+                </div>
+                <div className='sub-inner'>
+                    <p>
+                      Belize is home to over 600 ancient Mayan sites <br/>
+                      Scattered throughout the country
+                    </p>
+                    <i class="fa fa-angle-right"></i>
+                </div>
+                </a>
+             </div>
              <div className='col-sm-4 third'>
                 <a href="/family-holidays/">
                                       
@@ -65,41 +101,6 @@ const Tours = () => {
                     <p>
                         Family Friendly Resorts & Tours, <br/>
                         Lodges and Hotels
-                    </p>
-                    <i class="fa fa-angle-right"></i>
-                </div>
-                </a>
-             </div>
-          </div>
-          <div className='row'>
-             <div className='col-sm-4 fourth'>
-                <a href="/romantic-belize/">
-                                      
-                
-                <div className='inner-text'>
-                    <h1>Romantic Belize</h1>
-                </div>
-                <div className='sub-inner'>
-                    <p>
-                        Large variety of Extremely <br/>
-                        Romantic settings
-                    </p>
-                    <i class="fa fa-angle-right"></i>
-                    
-                </div>
-                </a>
-             </div>
-             <div className='col-sm-4 fifth'>
-                <a href="/sustainable-travel/">
-                                      
-               
-                <div className='inner-text'>
-                    <h1>Sustainable Travel</h1>
-                </div>
-                <div className='sub-inner'>
-                    <p>
-                       Leading on World Stage Conservation <br/>
-                        In Central America
                     </p>
                     <i class="fa fa-angle-right"></i>
                 </div>

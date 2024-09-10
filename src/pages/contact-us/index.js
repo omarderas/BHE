@@ -13,7 +13,7 @@ import ContactUs from "./components/contact-us"
 
 const Contact = () => (
   <Layout>
-    <Seo title="Belize Hummingbird Expeditions | Contact Us " />
+    <Seo title="Contact Us " />
     <ContactUs/>
   </Layout>
 )

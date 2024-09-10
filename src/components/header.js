@@ -7,11 +7,11 @@ import Sticky from 'react-sticky-el';
 import  FaFacebookF  from "../images/faFacebookF";
 import  FaInstagram  from "../images/FaInstagram";
 
-const MainLogo = "../images/bhe-logo.png";
+const MainLogo = "../images/bhe-main-new.png";
 
 
 const Header = ({ siteTitle }) => (
-  <Sticky>
+ 
  <header>
     <div className="top-bar row">
       <div className="contents">
@@ -109,9 +109,7 @@ const Header = ({ siteTitle }) => (
       <li class="nav-item">
         <a class="nav-link" href="/about-us">About Us</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="">Green Belize</a>
-      </li>
+      
       <li class="nav-item">
         <a class="nav-link" href="/contact-us">Contact Us</a>
       </li>
@@ -122,7 +120,7 @@ const Header = ({ siteTitle }) => (
 
 </nav>
   </header>
-  </Sticky>
+  
 )
 
 export default Header

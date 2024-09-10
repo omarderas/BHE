@@ -32,3 +32,98 @@
         }
     }
 }
+.row.custom, .about-main .row{
+    margin: 0!important;
+}
+.kHrGba {
+    padding: 0!important;
+}
+.eIMmgT, .eIMmgT * {
+
+    height: 400px;
+}
+.ArrowControl__ArrowControlContainer-sc-ps7sz3-0.jeSnNy{
+    //height: 32px!important;
+}
+.eapp-photo-gallery-item-data-image {
+ height: none!important;
+}
+
+@media(max-width: 575px){
+    .content-header .header-cont h1 {
+        font-size: 35px;
+    }
+
+
+   .tours-grid .data-wrapper{
+        width: 100%;
+        margin: 0!important;
+    }
+   .tours-grid {
+        column-count: 1!important;
+        column-gap: 0;
+        line-height: 0;
+    }
+    .content-header {
+        margin-top: -62px!important;
+    }
+    .content-header .header-cont {
+        position: absolute;
+        width: 100%;
+        bottom: -13px!important;
+    }
+    header .navbar-light .navbar-brand {
+        width: 40%;
+    }
+    .tours-cont {
+        padding: 15px!important;
+    }
+
+}
+.tours-cont {
+    padding: 15px!important;
+}
+.jungle-cont {
+    padding: 15px!important;
+}
+
+@media(min-width: 576px) and (max-width: 991px){
+    .content-header .header-cont {
+        position: absolute;
+        width: 100%;
+        bottom: -13px;
+    }
+    header .navbar-light .navbar-brand {
+        width: 40%;
+    }
+    .content-header {
+        margin-top: -62px!important;
+    }
+    .tours-cont {
+        padding: 15px!important;
+    }
+   .tours-grid .data-wrapper{
+        margin-bottom: 10px!important;
+        margin-top: 0px!important;
+        
+    }
+    .tours-grid .data-wrapper a .item-box .text-box .title h2 {
+        color: #fff;
+        font-size: 36px!important;
+        font-family: "Timmana", sans-serif;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        position: relative;
+        z-index: 999999;
+        line-height: 0.8!important;
+    }
+   .tours-grid .data-wrapper a .item-box .text-box {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 99;
+        text-align: left;
+        line-height: 13px;
+        padding: 20px!important;
+    }
+}

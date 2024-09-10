@@ -4,6 +4,13 @@
         max-width: 1500px;
         margin: 0 auto;
         text-align: left;
+        padding-bottom: 40px;
+
+        @media(max-width: 767px){
+            padding-left: 15px;
+            padding-right: 15px;
+           
+        }
         .contact-cont{
                 h1{
                     position: relative;
@@ -15,6 +22,9 @@
                     letter-spacing: 2px;
                     text-transform: uppercase;
                     text-decoration: none;
+                    @media(max-width: 575px){
+                        font-size: 40px;
+                    }
                 }
                 p{
                     margin-bottom: 0;
@@ -22,6 +32,17 @@
                     font-size: 16px;
                     color: #000;
                     padding-bottom: 20px;
+                }
+                .row{
+                    margin: 0;
+                }
+                @media(max-width: 767px){
+                    .row{
+                        margin: 0;
+                    }
+                    .col-sm-6{
+                        width: 100%;
+                    }
                 }
         }
     }

@@ -13,7 +13,7 @@ import AllTours from "./components/all-tours"
 
 const TourListings = () => (
   <Layout>
-    <Seo title="Belize Hummingbird Expeditions | All Adventures " />
+    <Seo title="All Adventures " />
     <AllTours/>
   </Layout>
 )

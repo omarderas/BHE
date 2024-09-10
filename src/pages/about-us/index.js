@@ -13,7 +13,7 @@ import AboutUs from "./components/about-us"
 
 const About = () => (
   <Layout>
-    <Seo title="Belize Hummingbird Expeditions | About Us " />
+    <Seo title="About Us " />
     <AboutUs/>
   </Layout>
 )

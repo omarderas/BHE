@@ -13,7 +13,7 @@ import Family from "./components/family"
 
 const FamilyHolidays = () => (
   <Layout>
-    <Seo title="Belize Hummingbird Expeditions | Family Holidays " />
+    <Seo title="Family Holidays " />
     <Family/>
   </Layout>
 )

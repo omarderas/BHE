@@ -1,9 +1,9 @@
 import React from 'react'
 import { StaticImage } from "gatsby-plugin-image"
-const kayakingImg = "../../../images/kayaking.png"
-const campingImg = "../../../images/camping.png"
+const kayakingImg = "../../../images/kayakingCta.png"
+const campingImg = "../../../images/caveTubing-cta.png"
 const tubingImg = "../../../images/tubing.png"
-const reefImg = "../../../images/reef.png"
+const reefImg = "../../../images/atm-cta.png"
 
 const Offers = () => {
   return (
@@ -27,23 +27,24 @@ const Offers = () => {
               </div>
             </a>
         </div>
-        <div className='col-sm-3'>
-            <a href="">
-              <StaticImage src={campingImg} quality={60} formats={["auto", "webp", "avif"]} />
-              <div className='tour-info'>
-                <h1>CAVEING & CAMPING</h1>
-                <p>Hummingbird Highway Belize</p>
-                <span>150 USD</span>
-              </div>
-            </a>
-        </div>
+
         <div className='col-sm-3'>
             <a href="">
               <StaticImage src={tubingImg} quality={60} formats={["auto", "webp", "avif"]} />
               <div className='tour-info'>
                 <h1>7 MILES CAVE TUBING</h1>
                 <p>Caves Branch River of Caves</p>
-                <span>150 USD</span>
+                <span>85 USD</span>
+              </div>
+            </a>
+        </div>
+        <div className='col-sm-3'>
+            <a href="">
+              <StaticImage src={campingImg} quality={60} formats={["auto", "webp", "avif"]} />
+              <div className='tour-info'>
+                <h1>CAVE TUBING</h1>
+                <p>St.Hermans Blue Hole</p>
+                <span>50 USD</span>
               </div>
             </a>
         </div>
@@ -51,9 +52,9 @@ const Offers = () => {
             <a href="">
               <StaticImage src={reefImg} quality={60} formats={["auto", "webp", "avif"]} />
               <div className='tour-info'>
-                <h1>SNORKELING & FISHING</h1>
-                <p>Hopkins Village</p>
-                <span>150 USD</span>
+                <h1>ATM Cave</h1>
+                <p>San Ignacio</p>
+                <span>115 USD</span>
               </div>
             </a>
         </div>
@@ -68,7 +69,7 @@ const Offers = () => {
             </a>
          </div>
        </div> 
-
+       <div class="elfsight-app-b982bbc6-144c-41e1-8b1d-2c2246513f9d" data-elfsight-app-lazy></div>
 
     </div>
   )

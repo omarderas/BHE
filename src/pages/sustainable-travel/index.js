@@ -13,7 +13,7 @@ import Sustainable from "./components/sustainable"
 
 const SustainableBelize = () => (
   <Layout>
-    <Seo title="Belize Hummingbird Expeditions | Sustainable Travel in Belize" />
+    <Seo title="Sustainable Travel in Belize" />
     <Sustainable/>
   </Layout>
 )

@@ -115,7 +115,7 @@ const ToursDeferred = ({data, index}) => {
                          <h3>Cancellation Policy</h3>
                          <div><p>Belize Hummingbird Expeditions requests a 50% deposit on services reserved to confirm a reservation. The final payment is due 21 days prior to the arrival date. A full refund is provided less than US$ 50.00 or BZ$ 100.00 for administrative costs for cancellations received 21 days or more prior to arrival date. A refund of 50% applies to cancellations received 15-20 days prior to the arrival date. No refunds are offered for cancellations received 14 days or less prior to the arrival date.<br /><br />
 
-Upsidedown Tours cannot be held responsible or liable for cancellations due to reasons beyond our control such as natural disasters, including but not limited to heavy rains, flooding, storms, or hurricanes. At whatever time possible another similar available tour can be substituted for tour cancellation.</p></div>
+                         Belize Hummingbird Expeditions cannot be held responsible or liable for cancellations due to reasons beyond our control such as natural disasters, including but not limited to heavy rains, flooding, storms, or hurricanes. At whatever time possible another similar available tour can be substituted for tour cancellation.</p></div>
                     </div>
                     </Col>
                     
