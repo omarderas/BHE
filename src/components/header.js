@@ -74,6 +74,9 @@ const Header = ({ siteTitle }) => (
        
         <a class="dropdown-item" href="/all-tours/">Bucket List Experiences</a>
         <a class="dropdown-item" href="/jungle-adventures/">Jungle Adventures</a>
+        <a class="dropdown-item" href="/cave-adventures/">Cave Adventures</a>
+        <a class="dropdown-item" href="/mayan-ruins/">Mayan Ruins</a>
+        
         <a class="dropdown-item" href="/family-holidays/">Family Holidays</a>
         <a class="dropdown-item" href="/sustainable-travel/">Sustainable Travel</a>
           <a class="dropdown-item" href="/private-services/">Private Services</a>
@@ -90,13 +93,14 @@ const Header = ({ siteTitle }) => (
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
         <a class="dropdown-item" href="/all-tours">View All Tours</a>
         <a class="dropdown-item" href="/cave-tubing-in-st-hermans-blue-hole-national-park-in-belize/">Cave Tubing</a>
+        <a class="dropdown-item" href="/7-mile-cave-tubing-the-caves-branch-river-in-belize/">7-Mile Cave Tubing</a>
         <a class="dropdown-item" href="/7-mile-cave-kayaking-the-caves-branch-river-in-belize/">7-Mile Cave Kayaking</a>
         <a class="dropdown-item" href="/cave-exploration-and-camping-hummingbird-highway-in-belize/">Cave Exploration & Camping</a>
 
         <a class="dropdown-item" href="/tikal-peten-department-in-northern-guatemala-belize-tour/">Tikal's Mayan Glory</a>
 
         <a class="dropdown-item" href="/birding-tour-in-belize/">Birding</a>
-        <a class="dropdown-item" href="/cave-exploration-and-camping-hummingbird-highway-in-belize/">Cave Exploration & Camping</a>
+      
   
        
 

@@ -25,16 +25,16 @@ function Footer() {
                 <div className="col-sm-6 sec">
                     <ul className="footer-nav">
                         <li>
-                            <a href="">About</a>
+                            <a href="/about-us/">About</a>
                         </li>
                         <li>
-                            <a href="">Experiences</a>
+                            <a href="/all-tours/">Experiences</a>
                         </li>
                         <li>
                             <a href="">Green Belize</a>
                         </li>
                         <li>
-                            <a href="">Meet The Team</a>
+                            <a href="/contact-us/">Contact Us</a>
                         </li>
                    
                     </ul>
@@ -79,8 +79,27 @@ function Footer() {
             </div>
             <div className="col-sm-4">
                <div className="footer-content">
-                        <h1>Quick Links</h1>
+                        <h1>Adventures</h1>
+                        <p>
 
+                          <a href="/cave-tubing-in-st-hermans-blue-hole-national-park-in-belize/"> Cave Tubing</a>
+                        </p>  
+                        <p>
+
+                          <a href="/7-mile-cave-kayaking-the-caves-branch-river-in-belize/"> 7-Mile Cave Kayaking</a>
+                        </p> 
+                        <p>
+
+                          <a href="/7-mile-cave-tubing-the-caves-branch-river-in-belize/"> 7-Mile Cave Tubing</a>
+                        </p> 
+                        <p>
+
+                          <a href="/mayan-ruins/"> Mayan Ruins</a>
+                        </p> 
+                        <p>
+
+                          <a href="/atm-cave-in-belize/"> ATM</a>
+                        </p> 
                
                 </div>
             </div>

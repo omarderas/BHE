@@ -127,3 +127,17 @@
         padding: 20px!important;
     }
 }
+@media (min-width: 768px) {
+    .navbar-collapse.collapse {
+        display: flex!important;
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important;
+    }
+}
+
+.navbar {
+  
+    margin-bottom: 0px;
+   
+}
