@@ -12,7 +12,7 @@ const Tours = () => {
             <h1>7 Mile Kave Kayaking the Caves Branch River</h1>
         </div>
         <div className='button-main'>
-            <a href="/all-tours/">Book Now</a>
+            <a href="/7-mile-cave-kayaking-the-caves-branch-river-in-belize/">Book Now</a>
         </div>
        </div>
        <div className='tour-grid'>

@@ -13,23 +13,23 @@ const Offers = () => {
          <div className='row title'>
             <span>Best Sellers</span>
              <h1>Our Top Picks for You</h1>
-              <p>Belize will exceed your expectations: it’s more natural, exciting and colourful than what can be seen on our monitors or telephone screens. Whatever your passion, you’ll be able to Belize it with us. Plus, sharing a trip here with people who mean the most to you, will create lifelong memories of breath-taking beauty, dramatic scenery and an incredible admiration for Belize’s vegetation, cave systems and the second largest barrier reef of the western hemisphere.</p>
+              <p>Belize will blow your expectations out of the water! More vibrant, thrilling, and awe-inspiring than any screen could ever capture, this paradise is yours to explore. Whether you're chasing adventure or simply soaking in nature’s wonders, you’ll get to truly Belize it with us. And when you share this unforgettable journey with your loved ones, you’ll create lasting memories of jaw-dropping landscapes, breathtaking cave systems, lush rainforests, and the world-famous Belize Barrier Reef – the second largest on the planet. Ready to dive into paradise?</p>
          </div>
       </div>
       <div className='row grid-tours'>
         <div className='col-sm-3'>
-            <a href="">
+            <a href="/7-mile-cave-kayaking-the-caves-branch-river-in-belize/">
               <StaticImage src={kayakingImg} quality={60} formats={["auto", "webp", "avif"]} />
               <div className='tour-info'>
                 <h1>7 Miles Kayaking</h1>
                 <p>Caves Branch River of Caves</p>
-                <span>150 USD</span>
+                <span>110 USD</span>
               </div>
             </a>
         </div>
 
         <div className='col-sm-3'>
-            <a href="">
+            <a href="/7-mile-cave-tubing-the-caves-branch-river-in-belize/">
               <StaticImage src={tubingImg} quality={60} formats={["auto", "webp", "avif"]} />
               <div className='tour-info'>
                 <h1>7 MILES CAVE TUBING</h1>
@@ -39,7 +39,7 @@ const Offers = () => {
             </a>
         </div>
         <div className='col-sm-3'>
-            <a href="">
+            <a href="/cave-tubing-in-st-hermans-blue-hole-national-park-in-belize/">
               <StaticImage src={campingImg} quality={60} formats={["auto", "webp", "avif"]} />
               <div className='tour-info'>
                 <h1>CAVE TUBING</h1>
@@ -49,12 +49,12 @@ const Offers = () => {
             </a>
         </div>
         <div className='col-sm-3'>
-            <a href="">
+            <a href="/atm-cave-in-belize/">
               <StaticImage src={reefImg} quality={60} formats={["auto", "webp", "avif"]} />
               <div className='tour-info'>
                 <h1>ATM Cave</h1>
                 <p>San Ignacio</p>
-                <span>115 USD</span>
+                <span>130 USD</span>
               </div>
             </a>
         </div>
@@ -63,7 +63,7 @@ const Offers = () => {
          <div className='custom-cont'>
             <p>Custom Packages</p>
             <h1>Let's Explore More</h1>
-            <p>Belize is a true jewel for a wide variety of adventure activities and multiple-day expeditions. We specially cater to visitors looking for an in-depth feel and experience of inland Belize:  Maya ruins, cave systems, rivers and jungle, culture and history. If you wish for us to customize part of your vacation through several days of daily activities or a multiple-day expedition filled with excitement and wonderment, please contact us – especially if you are a group of friends or family travelling together looking for the off the beaten path high adventure. We are here to work with you.</p>
+            <p>Belize is the ultimate playground for thrill-seekers and multi-day explorers! We craft unforgettable adventures for those craving an immersive experience of inland Belize – from ancient Maya ruins and mysterious cave systems to winding rivers and lush jungles steeped in culture and history. Want to level up your vacation with customized, action-packed itineraries? Whether it's a series of epic daily adventures or a multi-day expedition filled with wonder, we've got you covered. Perfect for groups of friends or families seeking high-adrenaline, off-the-beaten-path experiences. Ready for the adventure of a lifetime? Let's make it happen!</p>
             <a href="/contact-us/">
                 Contact Us
             </a>

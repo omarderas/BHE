@@ -33,9 +33,7 @@ function AboutUs() {
 <p>Our Team is composed of eight tour guides with different specialities who are also drivers and three back-up guides that are part of the Cave and River Kayaking Tours as well as overnight expeditions. Two guides within the team specialize in birding, the others in jungle, rivers, caves, Mayan Archaeology and the richly diverse flora and fauna of our overlapping wildlife habitats.</p>
        
         </div>
-        <div className='staff'>
-        <div class="elfsight-app-e9880706-00b7-46fa-b5ab-b21622b8c7a8" data-elfsight-app-lazy></div>
-        </div>
+
       </div>
     </div>
   )
