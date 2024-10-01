@@ -14,8 +14,18 @@ header {
        // background-image: url(../images/mobile-nav.png);
       
     }
+    .navbar-nav {
+        float: right !important;
+        margin: 0;
+        padding: 0px !important;
+        text-align: right;
+    }
 
-
+    @media(max-width: 991px){
+        nav.navbar.navbar-expand-lg.navbar-light.bg-light{
+            background-color: #1a7e2b!important;
+        }
+    }
     .row{
         margin: 0!important;
     }
@@ -161,14 +171,23 @@ padding-bottom: 0px;
     position: absolute;
     width: 100%;
     z-index: 99999999;
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+         background-color: unset!important;
+         padding-left: 10px;
+         padding-right: 10px;
+       
+       
+         
+     
+     }
     }
     @media(max-width: 991px){
         background-color: #00111E;
         //padding-left: 10px;
         //padding-right: 10px;
         .navbar-light .navbar-toggler {
-            color: #46c212;
-            border-color: #46c212;
+            color: #fff;
+            border-color: #fff;
             margin-left: auto;
         }
         .navbar {
@@ -176,15 +195,7 @@ padding-bottom: 0px;
             padding-bottom: 10px;
         }
     }
-    nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-        background-color: unset!important;
-        padding-left: 10px;
-        padding-right: 10px;
-      
-      
-        
-    
-    }
+  
     nav.navbar.navbar-expand-lg.navbar-light.bg-light {
         @media(max-width: 1529px){
         width: 100%;
