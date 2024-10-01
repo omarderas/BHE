@@ -49,6 +49,15 @@ module.exports = {
         }
       }
     },
+    {                             
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+          trackingIds: ['G-50WTC9P9SN'],
+          pluginConfig: {
+            head: true
+          },
+        },
+      },
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-manifest`,
