@@ -10,12 +10,14 @@
 module.exports = {
   siteMetadata: {
     title: `Belize Hummingbird Expeditions`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `We specialize in top-quality inland adventures that range from mellow sightseeing, cave tubing, CAVE KAYAKING, birding, jungle, and archaeological tours to high-adventure caving and river expeditions.`,
     author: `Jose Urbina`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://belizehummingbirdexpeditions.com/`,
+    keywords: `cave tubing in belize , belize, vacations in belize, caribbean, belize tours, things to do in belize, blue hole, bookings, caves in belize, birding, crystal cave belize, belize cave kayaking, crystal caves belize, crystal cave tubing belize, belize excursions, st herman's cave belize, tikal tours from belize, jungle survival belize, belize cave tubing excursion, bird watching in belize, tikal tours form belize`,
   },
   plugins: [
     `gatsby-plugin-image`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
