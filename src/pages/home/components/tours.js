@@ -9,7 +9,7 @@ const Tours = () => {
         </div>
         <div className='content'>
             <p>Experience the thrill of Belize with Belize's top requested tour.</p>
-            <h1>7 Mile Kave Kayaking the Caves Branch River</h1>
+            <h1>7 Mile Cave Kayaking the Caves Branch River</h1>
         </div>
         <div className='button-main'>
             <a href="/7-mile-cave-kayaking-the-caves-branch-river-in-belize/">Book Now</a>

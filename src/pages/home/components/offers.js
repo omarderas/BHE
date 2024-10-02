@@ -21,7 +21,7 @@ const Offers = () => {
             <a href="/7-mile-cave-kayaking-the-caves-branch-river-in-belize/">
               <StaticImage src={kayakingImg} quality={60} formats={["auto", "webp", "avif"]} />
               <div className='tour-info'>
-                <h1>7 Miles Kayaking</h1>
+                <h1>7 Miles Cave Kayaking</h1>
                 <p>Caves Branch River of Caves</p>
                 <span>110 USD</span>
               </div>
