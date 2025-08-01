@@ -61,7 +61,7 @@ const ToursDeferred = ({data, index}) => {
 
     return (
         <Layout>
-            <Seo title={data.graphCmsItemTours.tourTitle + " at " + data.graphCmsItemTours.tourLocation + ' with Patrick Tour Belize'} />
+            <Seo title={data.graphCmsItemTours.tourTitle + " at " + data.graphCmsItemTours.tourLocation + ' with Belize Hummingbird Expeditions'} />
 
 
             <div className="tours-deferred">

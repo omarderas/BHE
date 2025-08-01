@@ -19,12 +19,12 @@ const Header = ({ siteTitle }) => (
       <div className="col-sm-6">
 <ul className="social">
     <li>
-      <a href="https://www.facebook.com/profile.php?id=100092220665142" target="_blank">
+      <a href="https://www.facebook.com/profile.php?id=61572286466977">
           <FaFacebookF/>
       </a>
     </li>
     <li>
-      <a href="https://www.instagram.com/upsidedowntoursbz/" target="_blank">
+      <a href="">
       <FaInstagram/>
       </a>
     </li>
@@ -35,13 +35,13 @@ const Header = ({ siteTitle }) => (
       <div className="contact-block">
 
 
-          <a href="tel:635-8683" id="address">
+          <a href="tel:635-7172" id="address">
           <i class="fa fa-phone" aria-hidden="true"></i>
-          <span>TEL: +501 634-5385 </span>
+          <span>TEL: +501 635-7172 </span>
           </a>
-          <a href="mailto:info@upsidedowntours.com" id="cell">
+          <a href="mailto:bzhummingbirdexpeditions@yahoo.com" id="cell">
           <i class="fa fa-envelope" aria-hidden="true"></i>
-          <span>Email: info@upsidedowntours.com</span>
+          <span>Email: bzhummingbirdexpeditions@yahoo.com</span>
           </a>
         </div>
       </div>

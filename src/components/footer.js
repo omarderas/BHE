@@ -48,8 +48,8 @@ function Footer() {
                     <ul className="social">
                                 <li>
                                    
-                                    <a href="https://www.facebook.com/profile.php?id=100092220665142" target="_blank"><FaFacebookF /></a>
-                                    <a href="https://www.instagram.com/upsidedowntoursbz/" target="_blank"><FaInstagram /></a>
+                                    <a href="https://www.facebook.com/profile.php?id=61572286466977" target="_blank"><FaFacebookF /></a>
+                                    <a href=""><FaInstagram /></a>
                                  
                                 </li>
                             
@@ -63,12 +63,12 @@ function Footer() {
                     <p>
                         Tel:
                    
-                     <a href="tel:5016345385"> +(501) 634-5385</a>
+                     <a href="tel:5016357172"> +(501) 635-7172</a>
                     </p>
                     <p>
                         Email:
                     
-                    <a href="mailto:info@upsidedowntours.com"> info@upsidedowntours.com</a>
+                    <a href="mailto:bzhummingbirdexpeditions@yahoo.com"> bzhummingbirdexpeditions@yahoo.com</a>
                     </p>
                     <p>
                         Hours:
